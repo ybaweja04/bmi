@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(#12111C,#230e4c,#552da6);
+    color: white;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.background h1{
+    font-size: 60px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+#introText{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+#weight{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 430px;
+    padding: 5px;
+}
+#height{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+#button{
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    padding: 5px;
+    margin-left: 620px;
+    border: none;
+    outline-style: solid;
+    outline-color: rgb(119, 0, 255);
+    outline-width: 5px;
+    border-radius: 1px;
+}
+#button:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+#results{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-top: 30px;
+    font-size: 25px;
+}
